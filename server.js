@@ -1,6 +1,6 @@
 const app = require('./index.js');
 
-app.use(express.json);
+app.use(express.json());
 
 const MAX_VALUE = 1000000; // 10 lakhs (1 million)
 const MIN_VALUE = -1000000; // -10 lakhs (-1 million)
