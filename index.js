@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
 
 //your code here
 
+app.get('/', (req, res) => {
+  return 'hello world';
+});
+
 const MAX_VALUE = 1000000; // 10 lakhs (1 million)
 const MIN_VALUE = -1000000; // -10 lakhs (-1 million)
 
